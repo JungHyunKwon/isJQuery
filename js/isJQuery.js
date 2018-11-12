@@ -7,7 +7,7 @@ try {
 		'use strict';
 
 		/**
-		 * @name 제이쿼리 객체인지 확인
+		 * @name isJQuery
 		 * @since 2017-12-06
 		 * @param {*} value
 		 * @return {boolean}
