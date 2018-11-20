@@ -13,9 +13,7 @@ try {
 		 * @return {boolean}
 		 */
 		window.isJQuery = function(value) {
-			var $ = window.jQuery;
-
-			return typeof $ === 'function' && value instanceof $;
+			return typeof jQuery === 'function' && value instanceof jQuery;
 		};
 	})();
 }catch(e) {
