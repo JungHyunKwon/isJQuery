@@ -7,12 +7,12 @@ try {
 		'use strict';
 
 		/**
-		 * @name isJQuery
+		 * @name isJquery
 		 * @since 2017-12-06
 		 * @param {*} value
 		 * @return {boolean}
 		 */
-		window.isJQuery = function(value) {
+		window.isJquery = function(value) {
 			var $ = window.jQuery;
 
 			return typeof $ === 'function' && value instanceof $;
